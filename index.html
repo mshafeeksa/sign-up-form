@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kUhU - Sign Up</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="left-pane">
@@ -16,10 +17,10 @@
         </div>
         <div class="credit">
             <div class="photo-credit">
-                <a href="https://www.pexels.com/photo/low-angle-photo-of-airplane-1154619/" target="_blank" rel="noopener noreferrer">Photo by Sam Willis</a>
+                <a href="https://www.pexels.com/photo/brown-and-pink-eggs-on-pink-background-6897432/" target="_blank" rel="noopener noreferrer">Photo by ROMAN ODINTSOV from Pexels</a> 
             </div>
-            <div class="logo-credit">                <a href='https://pngtree.com/freepng/circuit-logo-template-vector_4018325.html' target="_blank" rel="noopener noreferrer">Logo from pngtree.com</a>
-            </div>
+            <!-- <div class="logo-credit">                <a href='https://pngtree.com/freepng/circuit-logo-template-vector_4018325.html' target="_blank" rel="noopener noreferrer">Logo from pngtree.com</a>
+            </div> -->
         </div>
     </div>
     <div class="right-pane">
@@ -52,9 +53,12 @@
                                 </div>
                             </div>
                             <div class="line">
-                                <div class="label-input-pair">
+                                <div class="label-input-pair pw-section">
                                     <label for="pw">PASSWORD</label>
                                     <input type="password" name:"pw" id="pw">
+                                    <div class="pw-error">
+
+                                    </div>
                                 </div>                            <div class="label-input-pair">
                                     <label for="conf-pw">CONFIRM PASSWORD</label>
                                     <input type="password" name:"conf-pw" id="conf-pw">
@@ -69,6 +73,9 @@
                 <div class="alt-login">
                     Already have an account? <span class="login"><a href="#">Log in</a></span>
                 </div>
+            </div>
+            <div class="footer">
+                By Mohammed Shafeek for The Odin Project
             </div>
     </div>
 </body>
