@@ -24,7 +24,7 @@ html, body{
 
 .left-pane {
     position: relative;
-    min-width: max(30%,400px);
+    min-width: max(37%,400px);
     
     height: 100%;
     min-height: 35rem;
